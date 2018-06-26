@@ -1,3 +1,2 @@
 #!/bin/bash
 docker run --rm -it -v $PWD:/app -w /app durosoft/crystal-alpine:latest crystal build test.cr -o output --release --static --no-debug
-
