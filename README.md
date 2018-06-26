@@ -1,6 +1,9 @@
 # crystal-alpine
 
-This Dockerfile allows you to compile static linux crystal binaries on any system that supports docker.
+This Dockerfile allows you to compile static linux crystal binaries on any system that supports docker. The dockerhub repo can be
+found here:
+
+https://hub.docker.com/r/durosoft/crystal-alpine/
 
 ## Tags
 
