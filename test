@@ -1,2 +1,4 @@
 #!/bin/bash
+docker pull durosoft/crystal-alpine:latest
+docker run durosoft/crystal-alpine:latest crystal --version
 docker run --rm -it -v $PWD:/app -w /app durosoft/crystal-alpine:latest crystal build test.cr -o output --release --static --no-debug
